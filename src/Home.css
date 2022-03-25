@@ -1,0 +1,55 @@
+body{
+    min-height: 100vh; 
+}
+
+.main-section{
+    padding-top: 60px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(3, 340px);
+    grid-template-rows: auto;
+    grid-gap: 50px;
+    
+}
+
+.nav-point{
+    border: solid 4px blue;
+    width: 290px;
+    text-align: center;
+}
+
+.nav-point > img{
+    padding-top: 20px;
+    height: 150px;
+    background-repeat: no-repeat;
+}
+
+.nav-point > img:hover{
+    transform: scale(1.25);
+}
+
+
+.nav-point > p{
+    color: rgb(0, 153, 255);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+}
+
+
+.home-title{
+    text-align: center;
+}
+
+h1{
+    font-family: "Snell Roundhand";
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+}
+
+h2{
+    font-family: "Marker Felt";
+    color: rgb(5, 144, 224);
+}
