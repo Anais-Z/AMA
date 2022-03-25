@@ -12,7 +12,7 @@ const Page = (props) => {
          </div>
         </>
     )
-} 
+}
 
 const Home = () =>{
 
