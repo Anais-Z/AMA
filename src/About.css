@@ -1,0 +1,20 @@
+.about-info{
+    width: 500px;
+}
+
+.about-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+}
+
+.about-title{
+    font-size: 50px;
+    font-family: "Marker Felt";
+    color: rgb(0, 0, 0);
+}
