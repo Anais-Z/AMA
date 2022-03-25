@@ -1,0 +1,46 @@
+.nav-box{
+    height: 150px;
+    background-color: blue;
+   
+}
+
+.nav-link{
+    color: aliceblue;
+}
+
+.nav-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.ama-tag{
+    font-size: 60px;
+    font-family: 'Apple Chancery';
+    font-weight: bold;
+    padding-left: 50px;
+}
+
+.ama-tag:hover{
+    color:rgb(0, 255, 255);
+}
+
+.the-links{
+    width: 550px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.the-links > .nav-link{
+    text-decoration: none;
+    font-family: "Comic Sans MS";
+}
+
+.the-links > a:hover{
+    color:rgb(0, 255, 255);
+    font-size: 20px;
+}
