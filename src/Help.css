@@ -1,1 +1,49 @@
 body{
+    min-height: 100vh; 
+}
+
+.page-img{
+    height: 350px;
+}
+
+.header-img{
+    height: 50px;
+    width: 620px;
+    
+}
+
+.help-section{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(2, 440px);
+    grid-template-rows: auto;
+    grid-gap: 200px;
+}
+
+.header-div{
+    width: 100px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    row-gap: 10px;
+}
+
+li{
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+}
+
+.header-desc{
+    margin-bottom: 50px;
+}
+
+.help-title{
+    font-size: 50px;
+    font-family: "Marker Felt";
+    color: rgb(0, 0, 0);
+   
+}
