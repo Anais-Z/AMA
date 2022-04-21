@@ -7,7 +7,7 @@ const Page = (props) => {
     return(
         <> 
          <div className="nav-point">
-             <img src={props.image}/>
+             <img src={props.image} onClick={props.func} />
              <p> {props.name}</p>
          </div>
         </>
@@ -15,7 +15,9 @@ const Page = (props) => {
 }
 
 const Home = () =>{
-
+    function lol(){
+        window.location.href ="/game"
+    }
     return(
             <>
     
@@ -26,7 +28,7 @@ const Home = () =>{
             <div className="main-section">
     
                 <div>
-                    <Page image="./images/game.png" name="Games" />
+                    <Page image="./images/game.png" name="Games" func={lol} />
                 </div>
                 <div>
                      <Page image="./images/quiz.png" name="Quizzes" />
@@ -44,9 +46,10 @@ const Home = () =>{
                      <Page image="./images/settings.png" name="Settings" />
                 </div>
             </div>
-            
             </>
+
     )
+
     
 }
 

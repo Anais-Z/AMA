@@ -4,6 +4,7 @@ import Home from './Home'
 import About from './About'
 import Help from './Help'
 import Parent from './Parent'
+import Game  from './Game';
 import {Route,Link, Routes} from "react-router-dom"
 import Navbar from "./Navbar"
 
@@ -15,7 +16,7 @@ function App() {
      <Route  path="/" element={<Home/>}/>
      <Route  path="/about" element={<About/>}/>
      <Route  path="/help" element={<Help/>}/>
-     <Route  path="/parent" element={<Parent/>}/>
+     <Route  path="/game" element={<Game/>}/>
      </Routes>
     </div>
   );
