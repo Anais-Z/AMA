@@ -17,6 +17,7 @@ function App() {
      <Route  path="/about" element={<About/>}/>
      <Route  path="/help" element={<Help/>}/>
      <Route  path="/game" element={<Game/>}/>
+     <Route  path="/parent" element={<Parent/>}/>
      </Routes>
     </div>
   );

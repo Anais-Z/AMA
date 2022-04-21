@@ -1,0 +1,24 @@
+.parent-help-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.desc{
+    width: 720px;
+}
+
+.h1-parent, .h2-parent{
+    font-weight: bold;
+    font-family: initial;
+}
+
+.h1-parent{
+    color: black;
+}
+
+.h2-parent{
+    color: rgb(4, 0, 246);
+}

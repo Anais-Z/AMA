@@ -15,20 +15,24 @@ const Page = (props) => {
 }
 
 const Home = () =>{
-    function lol(){
+    function navGame(){
         window.location.href ="/game"
     }
+
+    function navParent(){
+        window.location.href ="/parent"
+    }
+
     return(
             <>
     
             <div className="home-title">
-                <h1> Hello William Afton</h1>
                 <h2> Select Any of The Following Images</h2>
             </div>
             <div className="main-section">
     
                 <div>
-                    <Page image="./images/game.png" name="Games" func={lol} />
+                    <Page image="./images/game.png" name="Games" func={navGame} />
                 </div>
                 <div>
                      <Page image="./images/quiz.png" name="Quizzes" />
@@ -37,7 +41,7 @@ const Home = () =>{
                      <Page image="./images/user_info.png" name="Profile" />
                 </div>
                 <div>
-                     <Page image="./images/parents.jpeg" name="Parent Help" />
+                     <Page image="./images/parents.jpeg" name="Parent Help" func={navParent} />
                 </div>
                 <div>
                      <Page image="./images/donation.png" name="Donate" />
